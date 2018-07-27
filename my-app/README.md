@@ -9,3 +9,8 @@ So to help myself get a better understanding of how React works now that the pro
 - Coding React and actually understanding it
 
 ## What I learned
+- React components accepts single "props" (properties) with data that returns a React element. Each component is considered a functional.
+- When using a constructor you must always call "super(props)".
+- You setState inside of a constructor. When calling it in a component, React updates the child components inside of it.  
+
+
